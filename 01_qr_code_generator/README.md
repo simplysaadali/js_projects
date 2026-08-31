@@ -55,4 +55,4 @@ http://localhost:8000
 
 ## Notes
 
-This project uses the public QR code generation service from `api.qrserver.com` to create the QR image dynamically.
+This project uses the public QR code generation service from `api.qrserver.com` to create the QR image dynamically. Which helps all the people to generate the QR-code for free.
