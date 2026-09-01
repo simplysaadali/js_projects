@@ -25,6 +25,7 @@ label{
     border-radius: 25px;
     border: none;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 #weight{
@@ -33,6 +34,11 @@ label{
     border-radius: 25px;
     border: none;
     margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+form{
+    text-align: center;
 }
 
 #calculate-btn{
@@ -69,4 +75,8 @@ h3{
 
 #weight-guide p{
     font-size: 19px;
+}
+
+#results{
+    font-size: 20px;
 }
