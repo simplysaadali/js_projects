@@ -1,5 +1,4 @@
 # JavaScript Projects Collection
-
 <div align="center">
   <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -8,15 +7,18 @@
 
 <p align="center">
   A curated mini-portfolio of beginner-friendly frontend projects built with plain HTML, CSS, and JavaScript.
+</p>
+
 # JavaScript Mini Projects
 
-Three small, interactive apps built with vanilla HTML, CSS, and JavaScript.
+Four small, interactive apps built with vanilla HTML, CSS, and JavaScript.
 
 | Project | Try it | Practice |
 |---|---|---|
 | [QR Code Generator](01_qr_code_generator) | Enter text or a URL, then download the QR image | API use, DOM updates |
 | [Random Color Generator](02_random_color_generator) | Generate a color and copy its hex value | Random values, Clipboard API |
 | [BMI Calculator](03_bmi_calculator) | Enter height and weight to see a BMI category | Forms, validation, calculations |
+| [Arithmetic Calculator](04_Arithmetic_Calculator) | Perform basic arithmetic operations with a clean UI | Event handling, DOM manipulation, operator logic |
 
 ## Run locally
 
