@@ -1,20 +1,40 @@
-🧮 Calculator
+# Calculator
 
-A simple, responsive calculator web app built with HTML, CSS, and JavaScript — featuring a sleek dark cyberpunk-inspired UI with neon magenta and cyan accents.
+A simple and responsive calculator web application built with **HTML, CSS, and Vanilla JavaScript**. It features a sleek dark, cyberpunk-inspired interface with neon magenta and cyan accents.
 
-📸 Screenshots
-<p align="center"> <img src="sshots/pic1.png" width="30%" /> <img src="sshots/pic2.png" width="30%" /> <img src="sshots/pic3.png" width="30%" /> </p>
-✨ Features
-Basic arithmetic operations: addition, subtraction, multiplication, division
-Clear (C) and delete (DEL) functionality
-Responsive design — works on mobile and desktop
-Keyboard input support
-Clean, neon-themed dark UI
-🛠️ Tech Stack
-HTML5 — structure
-CSS3 — styling and animations
-JavaScript (Vanilla) — logic and DOM manipulation
-📂 Project Structure
+## 📸 Screenshots
+
+<p align="center">
+  <img src="sshots/pic1.png" width="30%" />
+  <img src="sshots/pic2.png" width="30%" />
+  <img src="sshots/pic3.png" width="30%" />
+</p>
+
+## ✨ Features
+
+* ➕ Addition
+* ➖ Subtraction
+* ✖️ Multiplication
+* ➗ Division
+* 🧹 Clear (`C`) functionality
+* ⌫ Delete (`DEL`) functionality
+* ⌨️ Keyboard input support
+* 📱 Responsive design for mobile and desktop
+* 🌙 Dark cyberpunk-inspired UI
+* 💫 Neon magenta and cyan visual effects
+* ⚡ No external dependencies
+
+## 🛠️ Tech Stack
+
+| Technology     | Purpose                             |
+| -------------- | ----------------------------------- |
+| **HTML5**      | Page structure                      |
+| **CSS3**       | Styling, layout & animations        |
+| **JavaScript** | Calculator logic & DOM manipulation |
+
+## 📂 Project Structure
+
+```text
 calculator/
 ├── sshots/
 │   ├── pic1.png
@@ -25,19 +45,34 @@ calculator/
 ├── style.css
 ├── script.js
 └── README.md
-⚙️ Installation & Usage
-Clone the repository
-bash
-   git clone https://github.com/AtibaYounus/calculator.git
-Navigate into the project folder
-bash
-   cd calculator
-Open index.html in your browser — no build steps or dependencies required
-🧑‍💻 Author
+```
 
-Atiba Younus
+## ⚙️ Installation & Usage
 
-GitHub: @AtibaYounus
-📄 License
+### 1. Clone the repository
 
-This project is open source and available under the MIT License.
+```bash
+git clone https://github.com/AtibaYounus/calculator.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd calculator
+```
+
+### 3. Run the project
+
+Open `index.html` directly in your browser.
+
+No build process, package installation, or external dependencies are required.
+
+## 🧑‍💻 Author
+
+**Atiba Younus**
+
+GitHub: [@AtibaYounus](https://github.com/AtibaYounus)
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
