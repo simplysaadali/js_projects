@@ -1,38 +1,34 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0a1128,100:1b3a6b&height=220&section=header&text=Image%20Gallery&fontSize=60&fontColor=ffffff&fontAlignY=35)
+# Image Gallery
 
-A simple, responsive image gallery built with HTML, CSS, and JavaScript.
+A responsive gallery that loads curated photos from the Pexels API through a small Express server.
 
-## Features
-- Clean grid-based image gallery
-- Lightweight, no external dependencies
-- Easy to customize with your own photos
+![Image Gallery preview](./view.png)
 
-## Live link : https://img-gallery-opal.vercel.app/
+**Live demo:** [img-gallery-opal.vercel.app](https://img-gallery-opal.vercel.app/)
 
-## Project Structure
+## Run locally
+
+```bash
+cd server
+npm install
 ```
-├── index.html      # Main HTML file
-├── style.css        # Gallery styling
-├── script.js         # Gallery interactivity
-└── photos/
-    ├── p1.avif
-    ├── p2.avif
-    ├── p3.avif
-    ├── p4.avif
-    ├── p5.avif
-    └── p6.avif
+
+Create `server/.env`:
+
+```env
+My_Pexels_API_Key=your_pexels_api_key
+PORT=3000
 ```
-## Getting Started
-1. Clone or download this repository
-2. Add your images to the `photos/` folder (using `.avif` format, or update the file extensions in `index.html` to match your images)
-3. Open `index.html` in your browser
-No build steps or dependencies required.
-## Customization
-- **Add/remove images**: Edit the `<div class="gallery">` section in `index.html` and add or remove `<img>` tags as needed
-- **Styling**: Modify `style.css` to change the grid layout, spacing, or image effects
-- **Behavior**: Add interactivity (like a lightbox or click-to-zoom) in `script.js`
-## License
-Feel free to use and modify this project for your own purposes.
----
-                                                            Madeby Atiba|| University of Gujrat
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0a1128,100:1b3a6b&height=120&section=footer)
+
+Start the API:
+
+```bash
+npm run dev
+```
+
+Then open `client/index.html` in a browser. The client requests images from `http://localhost:3000/api/images`.
+
+## Structure
+
+- `client/` - gallery markup, styles, and browser code
+- `server/` - Express API and Pexels integration
