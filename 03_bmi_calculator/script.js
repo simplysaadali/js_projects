@@ -28,7 +28,7 @@ form.addEventListener("submit", function (e) {
     } else if (Number(bmi) >= 18.5 && Number(bmi) <= 24.9) {
         results.innerHTML += "<br>You're healthy";
         results.style.color = "green";
-    } else if (Number(bmi) >= 25 && Number(bmi) <= 29.9) {
+    } else if (Number(bmi) >= 25 && Number(bmi) <= 30) {
         results.innerHTML += "<br>You're overweight";
         results.style.color = "orange";
     } else {
