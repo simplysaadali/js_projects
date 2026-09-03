@@ -11,7 +11,7 @@
 
 # JavaScript Mini Projects
 
-Four small, interactive apps built with vanilla HTML, CSS, and JavaScript.
+Five small, interactive apps built with vanilla HTML, CSS, and JavaScript.
 
 | Project | Try it | Practice |
 |---|---|---|
@@ -19,6 +19,7 @@ Four small, interactive apps built with vanilla HTML, CSS, and JavaScript.
 | [Random Color Generator](02_random_color_generator) | Generate a color and copy its hex value | Random values, Clipboard API |
 | [BMI Calculator](03_bmi_calculator) | Enter height and weight to see a BMI category | Forms, validation, calculations |
 | [Arithmetic Calculator](04_Arithmetic_Calculator) | Perform basic arithmetic operations with a clean UI | Event handling, DOM manipulation, operator logic |
+| [Image Gallery](05_Image_Gallery) | Browse images in a responsive grid with a lightbox view | Grid layouts, event delegation, image loading |
 
 ## Run locally
 
