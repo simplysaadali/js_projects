@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: black;
+    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 23px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#left {
+    position: absolute;
+    left: 70px;
+}
+
+#name {
+    font-size: 35px;
+}
+
+#name:hover{
+    text-decoration: none;
+}
+
+#midlle {
+    display: flex;
+    gap: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(27, 212, 27);
+}
+
+#color-change{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+}
+
+#start{
+    background-color: green;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#start:hover{
+    box-shadow: 4px 4px 10px rgba(4, 240, 51, 0.3);
+    transform: translateY(-2px);
+    transition: 0.5s ease;
+}
+
+#stop{
+    background-color: rgb(122, 11, 11);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#stop:hover{
+    box-shadow: 4px 4px 10px rgba(255, 30, 0, 0.3);
+    transform: translateY(-2px);
+    transition: 0.5s ease;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 20px 25px;
+        gap: 15px;
+    }
+
+    #left {
+        position: static;
+        left: auto;
+    }
+
+    #name {
+        font-size: 26px;
+    }
+
+    #midlle {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    #color-change {
+        height: 60vh;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    button {
+        width: 90px;
+        height: 42px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    #name {
+        font-size: 22px;
+    }
+
+    #midlle {
+        gap: 12px;
+        font-size: 14px;
+    }
+
+    button {
+        width: 80px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
