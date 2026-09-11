@@ -252,7 +252,7 @@ Possible improvements include:
 
 If the project is deployed, add the live URL here:
 
-🔗 **Live Demo:** `Add your deployed URL here`
+🔗 **Live Demo:** https://chronotick.vercel.app/
 
 ---
 
@@ -262,7 +262,7 @@ If the project is deployed, add the live URL here:
 
 🎓 Computer Science Student
 🏫 University of Gujrat, Pakistan
-💻 Frontend Developer & Programming Learner
+💻 Full stack Developer & Programming Learner
 
 ### GitHub
 
