@@ -4,12 +4,13 @@ A small set of beginner-friendly frontend projects built with plain HTML, CSS, a
 
 ## Included projects
 
-- QR Code Generator
-- Random Color Generator
-- BMI Calculator
-- Arithmetic Calculator
-- Image Gallery
-- Color Flipper
+* QR Code Generator
+* Random Color Generator
+* BMI Calculator
+* Arithmetic Calculator
+* Image Gallery
+* Color Flipper
+* Stopwatch
 
 ## Run locally
 
